@@ -1,12 +1,12 @@
 
-# 무료로 한국어🇰🇷 파인튜닝 모델 받아서 나만의 로컬 LLM 호스팅 하기(LangServe) + RAG 까지!!
-
 ## YouTube 튜토리얼
-
-아래의 영상을 시청하시면서 따라서 진행하세요.
 
 [![데모 영상](https://img.youtube.com/vi/VkcaigvTrug/0.jpg)](https://youtu.be/VkcaigvTrug)
 
+## Python Libary 사전 설치
+```bash
+pip install -r requirements.txt
+```
 
 ## HuggingFace gguf 파일을 Ollama 로딩
 
