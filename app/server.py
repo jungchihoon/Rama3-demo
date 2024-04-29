@@ -27,7 +27,7 @@ app.add_middleware(
 
 @app.get("/")
 async def redirect_root_to_docs():
-    return RedirectResponse("/xionic/playground")
+    return RedirectResponse("/prompt/playground")
 
 
 add_routes(app, chain, path="/prompt")
@@ -55,14 +55,14 @@ add_routes(app, EN_TO_KO_chain, path="/translate")
 
 add_routes(app, model, path="/llm")
 
-add_routes(
-    app,
-    xionic_chain.with_types(input_type=InputChat),
-    path="/xionic",
-    enable_feedback_endpoint=True,
-    enable_public_trace_link_endpoint=True,
-    playground_type="chat",
-)
+# add_routes(
+#     app,
+#     xionic_chain.with_types(input_type=InputChat),
+#     path="/xionic",
+#     enable_feedback_endpoint=True,
+#     enable_public_trace_link_endpoint=True,
+#     playground_type="chat",
+# )
 
 if __name__ == "__main__":
     import uvicorn
