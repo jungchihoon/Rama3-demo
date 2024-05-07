@@ -6,6 +6,8 @@
 ## Ollama 설치
 https://ollama.com/download
 
+## 
+
 ## Python Libary 사전 설치
 ```bash
 pip install -r requirements.txt
