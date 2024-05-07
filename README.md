@@ -3,6 +3,9 @@
 
 [![데모 영상](https://img.youtube.com/vi/VkcaigvTrug/0.jpg)](https://youtu.be/VkcaigvTrug)
 
+## Ollama 설치
+https://ollama.com/download
+
 ## Python Libary 사전 설치
 ```bash
 pip install -r requirements.txt
