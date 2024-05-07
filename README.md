@@ -118,7 +118,7 @@ NGROK 도메인 등록 링크: https://dashboard.ngrok.com/cloud-edge/domains
 ngrok http --domain=poodle-deep-marmot.ngrok-free.app 8000
 ```
 
-## GPU 사용량 모니터링
+## GPU 사용량 모니터링(Only for Mac OS M-series)
 
 Github Repo: https://github.com/tlkh/asitop
 
